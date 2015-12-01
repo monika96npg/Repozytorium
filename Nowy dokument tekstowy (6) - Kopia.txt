@@ -1,6 +1,6 @@
 
 #include <iostream>
-
+mmmmmmmm xxx
 using namespace std;
 
 typedef unsigned long long ulong;
@@ -24,7 +24,7 @@ void InicjujMT(unsigned int x0)
   }
 }
 
-// Inicjuje MT wartoúciami losowymi
+// Inicjuje MT warto≈ìciami losowymi
 //---------------------------------
 void UprzypadkowijMT()
 {
