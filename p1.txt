@@ -3,7 +3,7 @@
 #include time.h
 
 using namespace std;
-
+monika
 typedef unsigned long long ulong;
 
  64 bitowy generator pseudolosowy
@@ -34,7 +34,7 @@ ulong NWD(ulong a, ulong b)
   return a;
 }
 
- Funkcja mno¿y a i b mod n
+ Funkcja mnoÂ¿y a i b mod n
 --------------------------
 ulong MnozModulo(ulong a, ulong b, ulong n)
 {
@@ -64,7 +64,7 @@ ulong PotegujModulo(ulong a, ulong e, ulong n)
   return w;
 }
 
- Tablica pocz¹tkowych 169 liczb pierwszych
+ Tablica poczÂ¹tkowych 169 liczb pierwszych
 ------------------------------------------
 const ulong lp[] = {
   2,  3,  5,  7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67,
