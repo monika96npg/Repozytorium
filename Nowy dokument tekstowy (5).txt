@@ -12,7 +12,7 @@ ulong Losuj(ulong a,ulong b)
 {
   ulong w;
   int i;
-
+ monika
   for(i = 1; i <= 8; i++)
   {
     w <<= 8;
@@ -21,7 +21,7 @@ ulong Losuj(ulong a,ulong b)
   return a + (w % (b - a));
 }
 
-// Funkcja mno¿y a i b mod n
+// Funkcja mnoÂ¿y a i b mod n
 //--------------------------
 ulong MnozModulo(ulong a, ulong b, ulong n)
 {
