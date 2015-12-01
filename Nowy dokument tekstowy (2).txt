@@ -3,7 +3,7 @@
 using namespace std;
 
 unsigned int x0;
-
+monika
 // Generuje liczby pseudolosowe
 //-----------------------------
 unsigned int PM_RNG()
