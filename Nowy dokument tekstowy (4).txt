@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+monika
 unsigned int x0;
 
 // Generuje liczby pseudolosowe
