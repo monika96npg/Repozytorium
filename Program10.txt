@@ -4,6 +4,9 @@ using namespace std;
 monika
 unsigned int x0;
 
+
+To ju¿ ostatni ! :)
+
 // Generuje liczby pseudolosowe
 //-----------------------------
 unsigned int PM_RNG()
