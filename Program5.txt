@@ -48,3 +48,4 @@ Ile zmiennych!
   delete [] S;
   return 0;
 } 
+Zmianyyyyy/
