@@ -2,7 +2,7 @@
 #include <cmath>
 monika
 using namespace std;
-
+ŒWIÊTA ID¥ :)
 int main()
 {
   unsigned int n,g,x,y,xx,yy,z,i;

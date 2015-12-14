@@ -1,4 +1,4 @@
-
+﻿
 #include <iostream>
 mmmmmmmm xxx
 using namespace std;
@@ -26,7 +26,8 @@ void InicjujMT(unsigned int x0)
 
 // Inicjuje MT wartoœciami losowymi
 //---------------------------------
-void UprzypadkowijMT()
+void UprzypadkowijMT() 
+Ale ładnie to brzmi.
 {
   InicjujMT((unsigned int)time(NULL));
 }
@@ -56,7 +57,7 @@ int main()
 {
   int a,b,i,n;
 
-  UprzypadkowijMT();
+  UprzypadkowijMT(); 
   cin >> a >> b >> n;
   for(i = 1; i <= n; i++) cout << (a + (MersenneTwister() % (b - a + 1))) << " ";
   cout << endl << endl;

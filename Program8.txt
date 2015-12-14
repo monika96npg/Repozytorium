@@ -1,37 +1,39 @@
-#include <iostream>
+procedure bubbleSort(A : myArray; size : Integer);
+var
+     swapped : Boolean;
+     i, j : Integer;
+begin
 
-using namespace std;
+     for i := size - 1 downto 1 do
+     begin
+          swapped := false;
 
-unsigned int x0;
-monika
-// Generuje liczby pseudolosowe
-//-----------------------------
-unsigned int PM_RNG()
-{
-  unsigned int xlo,xhi;
+          for j := 1 to i do
+              if A[j] > A[j+1] then
+              begin
+                   swap(A[j], A[j+1]);
+                   swapped := true;
+              end;
 
-  xlo = 16807 * (x0 & 0xffff);
-  xhi = 16807 * (x0 >> 16);
-  xlo += (xhi & 0x7fff) << 16;
-  xlo += xhi >> 15;
-  if(xlo > 0x7fffffff) xlo -= 0x7fffffff;
-  return (x0 = xlo);
-}
+          if (swapped = false) then break;
+      end;
 
-// Ustawia losowe x0
-//------------------
-void Uprzypadkowij()
-{
-  do x0 = (unsigned int) time(NULL); while(!x0);
-}
+     writeArray(A, size);
+end;
 
-int main()
-{
-  unsigned int a,b,n,i;
+procedure selectionSort(A : myArray; size : Integer);
+var
+   minIndex, i, j : Integer;
+begin
+    for i := 1 to size do
+    begin
+         minIndex := i;
 
-  cin >> a >> b >> n;
-  Uprzypadkowij();
-  for(i = 1; i <= n; i++) cout << (a + PM_RNG() % (b - a + 1)) << " ";
-  cout << endl;
-  return 0;
-} 
+         for j := i + 1 to size do
+             if (A[j] < A[minIndex]) then minIndex := j;
+
+         swap(A[i], A[minIndex]);
+    end;
+
+    writeArray(A, size);
+end;  

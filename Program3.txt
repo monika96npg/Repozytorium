@@ -1,5 +1,8 @@
 #include <iostream>
 
+
+Ju¿ prawie pi¹tek.
+
 using namespace std;
 
 unsigned int x0;

@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
   unsigned int n,g,x,y,xx,yy,z,i;
+Ile zmiennych!
   bool * S;
 
   cin >> n;
