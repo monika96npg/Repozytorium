@@ -3,6 +3,7 @@
 #include <time.h>
 
 zzzzmiana
+JESZCZE JEDNA
 
 using namespace std;
 
