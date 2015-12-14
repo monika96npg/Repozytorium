@@ -86,3 +86,5 @@ int main()
   cout << (t ? "TAK" : "NIE") << endl;
   return 0;
 } 
+
+Długi kod.
